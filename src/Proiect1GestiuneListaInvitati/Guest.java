@@ -1,4 +1,4 @@
-package P1;
+package Proiect1GestiuneListaInvitati;
 
 public class Guest {
 	private String lastName;

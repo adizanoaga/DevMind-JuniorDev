@@ -1,8 +1,8 @@
-package P2;
+package Proiect2GenerareCadouri;
 
 import java.util.ArrayList;
 
-public class BagFIFO implements IBag{
+public class BagLIFO implements IBag{
 	private ArrayList<ISurprise> bag=new ArrayList();
 	@Override
 	public void put(ISurprise newSurprise) {
@@ -18,8 +18,8 @@ public class BagFIFO implements IBag{
 
 	@Override
 	public ISurprise takeOut() {
-		ISurprise s=bag.get(0);
-		bag.remove(0);
+		ISurprise s=bag.get(size()-1);
+		bag.remove(size()-1);
 		return s;
 	}
 
@@ -40,5 +40,4 @@ public class BagFIFO implements IBag{
 	public ArrayList<ISurprise> getBag() {
 		return bag;
 	}
-
 }

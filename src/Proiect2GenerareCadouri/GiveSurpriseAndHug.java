@@ -1,4 +1,4 @@
-package P2;
+package Proiect2GenerareCadouri;
 
 public class GiveSurpriseAndHug extends AbstractGiveSurprises{
 	public GiveSurpriseAndHug(String type, int waitTime) {

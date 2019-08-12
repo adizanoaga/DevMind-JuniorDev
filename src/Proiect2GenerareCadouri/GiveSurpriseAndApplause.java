@@ -1,4 +1,4 @@
-package P2;
+package Proiect2GenerareCadouri;
 
 public class GiveSurpriseAndApplause extends AbstractGiveSurprises {
 	
